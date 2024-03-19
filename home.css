@@ -114,4 +114,67 @@
     top: -22px;
   }
 
+  /* -------- navbar done ---------------------- */
+
+
+/* Additional CSS for the horizontal navbar */
+.horizontal-navbar {
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.horizontal-navbar img {
+  margin-right: 90px;
+  margin-left: 30px;
+  width: 110px;
+  height: 50px;
+}
+
+.horizontal-navbar-links {
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.horizontal-navbar-links a {
+  margin-right: 20px;
+  margin-left: 20px;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  font-weight: bold;
+  font-size: x-large;
+  text-decoration: none;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.search-container {
+  margin-right: 20px;
+}
+
+.search-container input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search-container button {
+  padding: 8px;
+  border: none;
+  background-color: #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delivery {
+  width: 50px;
+  height: 20px;
+  background-color: #999;
+  margin-right: 10px;
+}
+
+
  
