@@ -1,2 +1,3 @@
-# Reverie Fabrics ~ weaving dreams to reality
-Repository for Lab Project
+# Reverie Fabrics 
+## Weaving Dreams to Reality
+[Repository for Lab Project]
