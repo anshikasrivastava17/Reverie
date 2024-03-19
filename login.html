@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="navbar" id="navbar">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/signin">Login</a></li>
+                </ul>
+            </div>
+        </nav>	  
+    </section>
+    <form method="post" action="/signin">
+        <h1>Login</h1>
+        <div class="text">
+            <input type="text" name="username" placeholder="Username"> 
+        </div>
+        <div class="text">
+            <input type="text" name="password" placeholder="Password">
+        </div>
+        <input type="submit" value="Login" class="login">
+        <br><br>
+        <div class="su">
+            Don't have an account?
+        <br>
+        <a href="/signup">Sign up</a>
+        </div>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .top-bar {
+    background-color: green;
+    padding: 10px;
+  }
+  
+  .top-bar marquee {
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+
+  .navbar a:hover {
+    color: yellow;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 20px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #cb2c2c;
+    max-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .navbar-right {
+    float: right;
+  }
+  
+  .navbar-right img[src="Location.png"] {
+    height: auto;
+    width:20px;
+  }
+  
+  .navbar-right img[src="cont.png"] {
+    width:22px;
+    position:relative;
+    right: 3px;
+    top: 4px;
+  }
+
+  .navbar-right img[src="wishlist.png"] {
+    width:220px;
+    /* position:relative;
+    right: 3px;
+    top: 4px; */
+  }
+
+  .loc{
+    height:auto;
+    width: 20px;
+  }
+
+  /* .location{
+    max-width: 40%;
+    max-height: 60%;
+    background-color: aqua;
+    background-image: url('Location.png');
+    background-size: cover;
+  } */
