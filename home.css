@@ -25,7 +25,7 @@
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 20px;
+    padding: 14px 9px;
     text-decoration: none;
   }
 
@@ -95,21 +95,23 @@
   }
 
   .navbar-right img[src="wishlist.png"] {
-    width:220px;
-    /* position:relative;
+    width: 18px;
+    position:relative;
     right: 3px;
-    top: 4px; */
+    top: 4px; 
   }
 
-  .loc{
-    height:auto;
-    width: 20px;
+  .navbar-right img[src="cart.png"] {
+    width: 39px;
+    position:relative;
+    right: 3px;
+    top: -8px; 
   }
 
-  /* .location{
-    max-width: 40%;
-    max-height: 60%;
-    background-color: aqua;
-    background-image: url('Location.png');
-    background-size: cover;
-  } */
+  .carttext{
+    position:relative;
+    right: 2px;
+    top: -22px;
+  }
+
+ 
