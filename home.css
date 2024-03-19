@@ -117,7 +117,6 @@
   /* -------- navbar done ---------------------- */
 
 
-/* Additional CSS for the horizontal navbar */
 .horizontal-navbar {
   background-color: #f2f2f2;
   display: flex;
@@ -133,7 +132,7 @@
 }
 
 .horizontal-navbar-links {
-  flex-grow: 1;
+  display: flex;
   align-items: center;
   justify-content: space-between;
 }
@@ -147,34 +146,36 @@
   font-weight: bold;
   font-size: x-large;
   text-decoration: none;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.search-container {
-  margin-right: 20px;
+.horizontal-navbar-links a:hover{
+  text-decoration: underline;
+  text-decoration-color: #cb2c2c;
 }
 
+img.searchicon{
+  width: 20px;
+  height:20px;
+}
 .search-container input[type="text"] {
   padding: 8px;
-  border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
+  position:relative;
+  left: -90px;
 }
 
-.search-container button {
-  padding: 8px;
-  border: none;
-  background-color: #ddd;
-  border-radius: 5px;
-  cursor: pointer;
+.search-container{
+  display: flex;
+  position: relative;
+  right: -150px;
 }
-
-.delivery {
-  width: 50px;
-  height: 20px;
-  background-color: #999;
-  margin-right: 10px;
+img.delivery{
+  width: 300px;
+  height: 90px;
+  position: relative;
+  right: -30px;
 }
-
 
  
