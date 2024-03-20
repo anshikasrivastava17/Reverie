@@ -126,13 +126,13 @@ img.logo{
     right: -30px; top:-5px;
   }
 
-  #saleheading{
+  #womenheading{
     color: #cb2c2c;
   }
 
-  #saleheading:hover{
+  #womenheading:hover{
   text-decoration: underline;
-    text-decoration-color: #000000;
+  text-decoration-color: #000000;
   } 
 
 /* horizontal navbar done */
@@ -157,63 +157,6 @@ img.intropic{
 }
 
 /* -- intro image done -- */
-
-
-.wrapper{
-    background-color: #0f3761;
-    padding: 17px;
-    padding-bottom: 25px;
-}
-
-.heading{
-    color: #fff;
-    font-size: 40px;
-    font-weight: lighter;
-    text-align: center;
-    letter-spacing: 6px;
-    word-spacing: 6px;
-    margin-bottom: 25px;
-}
-.description{
-    color: #bababa;
-    text-align: center;
-    font-size: 15px;
-    letter-spacing: 1px;
-    font-family: Lucida Sans;
-}
-.timer{
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
-}
-.sub_timer{
-    width: 220px;
-    background: #b97375;
-    backdrop-filter: blur(20px);
-    border-radius: 20px;
-    overflow: hidden;
-}
-.digit{
-    color: #fff;
-    font-weight: lighter;
-    font-size: 70px;
-    text-align: center;
-    padding: 2.5rem 0;
-}
-.digit_name{
-    color: #000;
-    background: #ceb1be;
-    text-align: center;
-    padding: 0.6rem 0;
-    font-size: 20px;
-}
-  
-
-
-
-
-
 
 button{
     color: white;
@@ -283,8 +226,6 @@ img.strip{
 }
 
 /* ---- circular images done ----- */
-
-
 footer{
   background-color: #111;
   position: relative;
