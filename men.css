@@ -10,7 +10,7 @@ img.logo{
     display: flex;
 }
 .navbar {
-    background-color: #333;
+    background-color: #9f7833;
     overflow: hidden;
     padding: 20px;
     display: flex;
@@ -29,7 +29,7 @@ img.logo{
   }
 
   .navbar a:hover {
-    color: yellow;
+    color:black;
   }
   
   .navbar-right {
@@ -123,12 +123,17 @@ img.logo{
   img.delivery{
     width: 300px; height: 90px;
     position: relative;
-    right: -30px;
+    right: -30px; top:-5px;
   }
 
   #menheading{
-    color: green;
+    color: #cb2c2c;
   }
+
+  #menheading:hover{
+  text-decoration: underline;
+    text-decoration-color: #000000;
+  } 
 
 /* horizontal navbar done */
 
@@ -176,42 +181,48 @@ img.strip{
 
 .container {
     display: flex;
-    flex-wrap: wrap; /* Allow circles to wrap on smaller screens */
-    justify-content: space-between; /* Space circles evenly */
-    margin: 20px auto; /* Add some margin for better look */
-    width: 70%; /* Adjust width as needed */
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    margin: 20px auto; 
+    width: 70%; 
     position: relative;
     top: 300px;
 }
 
 .container2{
     display: flex;
-    flex-wrap: wrap; /* Allow circles to wrap on smaller screens */
-    justify-content: space-between; /* Space circles evenly */
-    margin: 20px auto; /* Add some margin for better look */
-    width: 70%; /* Adjust width as needed */
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    margin: 20px auto; 
+    width: 70%; 
     position: relative;
     top: 320px;
 }
 .circle-item {
-    width: 100px; /* Adjust width as needed */
-    height: 100px; /* Adjust height as needed */
+    width: 180px;
+    height: 180px; 
     border-radius: 50%;
     background-color: #ddd;
     display: flex; 
     justify-content: center;
     align-items: center;
     margin: 10px;
-    cursor: pointer; /* Add cursor for hover effect (optional) */
+    cursor: pointer;
+    
 }
 
 .circle-item img {
-    width: 60%; /* Adjust image size as needed */
-    height: 60%; /* Adjust image size as needed */
+    width: 100%; 
+    height: 100%;
+    border-radius: 50%;
+    background-size: auto;    
 }
 
 .circle-text {
-    text-align: center; /* Center the text */
-    font-size: 12px; /* Adjust font size as needed */
-    margin: 5px 0; /* Add some margin above and below the text */
+    text-align: center; 
+    font-size: 15px; 
+    margin: 5px 0;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
 }
+
+/* ---- circular images done ----- */

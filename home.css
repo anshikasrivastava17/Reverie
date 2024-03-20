@@ -6,7 +6,7 @@
   }
   
   .top-bar {
-    background-color: green;
+    background-color: #1b4632;
     padding: 10px;
   }
   
@@ -17,7 +17,7 @@
   }
 
   .navbar {
-    background-color: #333;
+    background-color: #9f7833;
     overflow: hidden;
   }
   
@@ -31,7 +31,7 @@
   }
 
   .navbar a:hover {
-    color: yellow;
+    color: black;
   }
   
   .dropdown {
@@ -171,38 +171,36 @@ img.searchicon{
 img.delivery{
   width: 300px; height: 90px;
   position: relative;
-  right: -30px;
+  right: -20px; 
 }
 
 /* ----- horizontal strap below navbar done ------  */
 
-
 .container {
   max-width: 100%;
-  ;
   padding-top: 0px;
   overflow-x: hidden; /* no horizontal overflow */
 }
 
 .slider-wrapper {
   position: relative;
-  max-width: 100%; /* Ensure no horizontal overflow */
+  max-width: 100%; 
   overflow-x: auto; /* Enable horizontal scrolling */
 }
 
 .slider-wrapper .image-list {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Adjust as needed */
+  grid-template-columns: repeat(4, 1fr);
   gap: 18px;
   font-size: 0;
   list-style: none;
   margin-bottom: 30px;
-  width: max-content; /* Allow the grid to expand beyond container width */
+  width: max-content; 
 }
 
 .slider-wrapper .image-list .image-item {
   width: 100%; /* Ensure images cover the full width */
-  height: 500px; /* Maintain aspect ratio */
+  height: 500px;
   object-fit: cover;
 }
 
@@ -213,6 +211,3 @@ img.delivery{
   align-items: center;
   overflow-x: hidden; /* Ensure no horizontal overflow */
 }
-
-
- 
