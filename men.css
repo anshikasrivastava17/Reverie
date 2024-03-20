@@ -169,6 +169,10 @@ button{
     margin: 0 auto;
 }
 
+button.shop:hover{
+  transform: scale(1.05);
+}
+
 img.strip{
     margin-top: 20px;
     position:relative;
