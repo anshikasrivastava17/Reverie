@@ -2,61 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reverie</title>
-    <link rel="stylesheet" href="home.css">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    
 </head>
+
 <body>
-    <div class="top-bar">
-    <marquee behavior="scroll" direction="left">Get additional 10% off on your first purchase! Use code 'REVERIE10' to avail offers.</marquee>
-  </div>
-  <nav class="navbar">
-    <div class="navbar-right">
-      <a href="#"><img src="cart.png" alt="cart"><span class="carttext">CART</span></a>
-      <a href="#"><img src="wishlist.png" alt="wishlist">WISHLIST</a>
-      <a href="#"><img src="cont.png" alt="contacticon">CONTACT US</a>
-      <a href="#"><img src="Location.png" alt="storeicon">STORES</a>
-    </div>
-  </nav>
-  <div class="dropdown-box" id="dropdownBox">
-   
-  </div>
-
-  <!----navbar done -->
-
-  <div class="horizontal-navbar">
-    <img src="reverie.png" alt="category-icon">
-    <div class="horizontal-navbar-links">
-      <a href="men.html">MEN</a>
-      <a href="women.html">WOMEN</a>
-      <a href="kids.html">KIDS</a>
-      <a href="wedding.html">WEDDING</a>
-      <a href="sale.html">SALE</a>
-    </div>
-    <div class="search-container">
-      <img src="search.png" alt="search-icon" class="searchicon">
-      <input type="text" placeholder="Search...">
-    </div>
-   <img src="deliv.png" alt="deliv-icon" class="delivery">
-  </div>
-
-  <!--- horizontal strap below navbar done-->
-
-
-  <div class="container">
-      <div class="slider-wrapper">
-        <ul class="image-list">
-          <img class="image-item" src="intro_img/img1.jpeg" alt="img-1" />
-          <img class="image-item" src="intro_img/img2.jpeg" alt="img-2" />
-          <img class="image-item" src="intro_img/img3.jpeg" alt="img-3" />
-          <img class="image-item" src="intro_img/img4.jpeg" alt="img-4" />
-      </div>
-      <div class="slider-scrollbar">
-        <div class="scrollbar-track">
-          <div class="scrollbar-thumb"></div>
+    <section class="header">
+        
+    </section>
+    <form id="loginForm" method="post" action="/signin" onsubmit="return validateForm()">
+        <h1 align="center">Login to <span>Reverie</span></h1>
+        <div class="text">
+            <input type="text" name="username" id="username" placeholder="Username" required>
         </div>
-      </div>
-    </div>
-    <script src="home.js"></script>
+        <div class="text">
+            <input type="password" name="password" id="password" placeholder="Password" required>
+        </div>
+        <input type="submit" value="Login" class="login">
+        <br><br>
+        <div class="su">
+            Don't have an account?<br>
+            <a href="/signup">Sign up</a>
+        </div>
+    </form>
+    <script src="login.js"></script>
 </body>
 </html>
