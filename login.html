@@ -6,34 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link rel="stylesheet" href="login.css">
+    
 </head>
+
 <body>
     <section class="header">
-        <nav>
-            <div class="navbar" id="navbar">
-                <ul>
-                    <li><a href="/">HOME</a></li>
-                    <li><a href="/signin">Login</a></li>
-                </ul>
-            </div>
-        </nav>	  
+        
     </section>
-    <form method="post" action="/signin">
-        <h1>Login</h1>
+    <form id="loginForm" method="post" action="/signin" onsubmit="return validateForm()">
+        <h1 align="center">Login to <span>Reverie</span></h1>
         <div class="text">
-            <input type="text" name="username" placeholder="Username"> 
+            <input type="text" name="username" id="username" placeholder="Username" required>
         </div>
         <div class="text">
-            <input type="text" name="password" placeholder="Password">
+            <input type="password" name="password" id="password" placeholder="Password" required>
         </div>
         <input type="submit" value="Login" class="login">
         <br><br>
         <div class="su">
-            Don't have an account?
-        <br>
-        <a href="/signup">Sign up</a>
+            Don't have an account?<br>
+            <a href="/signup">Sign up</a>
         </div>
     </form>
-    
+    <script src="login.js"></script>
 </body>
 </html>

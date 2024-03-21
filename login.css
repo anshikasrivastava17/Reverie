@@ -32,7 +32,7 @@ form{
 
 h1 {
      text-align: center;
-     margin-right: 45px;
+     margin-right:54px;
      color: white;
      font-size: 40px;
 }
@@ -62,6 +62,10 @@ h1 {
     font-family:Verdana, Geneva, Tahoma, sans-serif, Arial, sans-serif;
 }
 
+span{
+    color:#b97375;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
 .login:hover{
     background-position: right;
     font-size: 18px;
