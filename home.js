@@ -58,3 +58,19 @@ const initSlider = () => {
 }
 window.addEventListener("resize", initSlider);
 window.addEventListener("load", initSlider);
+
+function validateForm() {
+    var name = document.getElementById("name").value.trim();
+    var email = document.getElementById("email").value.trim();
+
+    if (name === "" || /\d/.test(name)) { //  /\d/.test(name) ~ doesnt contain digits
+        alert("Please enter a valid name without digits.");
+        return false;
+    }
+
+    if (email === "" || !email.includes("@")) {
+        alert("Please enter a valid email address.");
+        return false;
+    }
+    return true;
+}
